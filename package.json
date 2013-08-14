@@ -14,8 +14,6 @@
   },
   "dependencies": {
     "interactivate": "~0.x.x",
-    "codemirror-hashare": "~0.0.x",
-    "codemirror-activine": "~0.0.x",
     "codemirror-persist": "~0.0.x"
   }
 }

@@ -3,16 +3,12 @@
 var interactivate = require("interactivate")
 var startHost = require("interactivate/host/window")
 
-var hashare = require("codemirror-hashare")
 var persist = require("codemirror-persist")
-var activine = require("codemirror-activine")
 
 // Install plugins
 interactivate(CodeMirror)
 
 // Install other plugins
-activine(CodeMirror)
-hashare(CodeMirror)
 persist(CodeMirror)
 
 // Start an interactivate host
@@ -26,7 +22,7 @@ var editor = CodeMirror(document.body, {
   matchBrackets: true,
   electricChars: true,
   interactivate: true,
-  activeLine: true,
+  styleActiveLine: true,
   autofocus: true,
   theme: "solarized dark",
   mode: "javascript",
