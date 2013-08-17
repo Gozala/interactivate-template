@@ -1,7 +1,7 @@
 {
   "name": "interactivate-template",
   "id": "interactivate-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Template for embedding interactive & codemirror",
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "homepage": "https://github.com/Gozala/interactivate-template",
