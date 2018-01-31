@@ -13,7 +13,7 @@
     "browserify": "~1.x.0"
   },
   "dependencies": {
-    "interactivate": "~0.x.x",
-    "codemirror-persist": "~0.0.x"
+    "codemirror-persist": "~0.0.x",
+    "interactivate": "0.6.0"
   }
 }
